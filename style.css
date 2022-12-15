@@ -1,0 +1,467 @@
+/**
+    WEB222 – Final Assignment
+
+    This page is used for the ccs that
+    is used for the final assignment 
+    website. 
+
+    Name:       <Daniil Kabirov>
+*   Student ID: <064250046>
+*   Date:       <12/14/2022>
+**/
+  a:hover {
+    background-color: rgb(236, 135, 207);
+  }
+  .section1 {
+    background: url('back1.jpg');
+    
+  }
+  .section2 {
+    background: url('back2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width:100%;
+   
+  }
+
+  body {
+    padding: 50px;
+}
+  
+
+h1 {
+    font-size: 2.35em;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+  }
+   
+  h4 {
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(8, 115, 29);
+  }
+   
+  h3 {
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: bold; 
+  }
+   
+  h4 {
+    font-size: 1.5em;
+  }
+   
+  h5 {
+    font-size: 1.25em;
+  }
+   
+  h6 {
+    font-size: 1em;
+  }
+   
+  html {
+    font-size: 90%;
+    font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", Roboto,
+    "Helvetica Neue", 
+    Arial,
+    "Noto Sans", 
+    sans-serif;
+  }
+
+  p {
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  .box {
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+    /* Header */
+    .header-image {
+        
+        position: absolute;
+    background: url('header.png');
+    width:1400px;
+    height: 690px;
+    margin-left:200px;
+        }
+
+        /* Header for mobile*/
+        @media only screen and (max-width: 600px) {
+          .header-image{ 
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            background: url('header.png');
+            width:900px;
+    height: 690px;
+          }
+          }
+
+
+  /* Photo */
+
+  .pic img {
+    display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+height: 500px;
+  }
+
+   /* TOP SECTION: */   
+.pic {
+  background: url("https://img.freepik.com/free-vector/gradient-grainy-gradient-texture_23-2148974142.jpg?w=1800&t=st=1671080797~exp=1671081397~hmac=9e21499cc289fd6d2042757a832a1e4ed432553a3d525ee684ae482d1402bc0d");
+
+    margin-top:800px;
+    position: relative;
+    width: 750px;
+    height:850px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.5);
+
+    opacity: 0.85;
+}
+  /* Top section for mobile*/
+  @media only screen and (max-width: 600px) {
+   .pic {
+    margin-top:800px;
+    position: relative;
+    width: 750px;
+    height:850px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: auto;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.5);
+    background-color: rgb(49, 212, 98);
+    opacity: 0.9;
+}
+  }
+
+.white {
+    color:white;
+}
+   .btn1 {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    right:10px;
+  }
+  .btn2 {
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left:10px;
+  }
+
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+/* ABOUT ME */  
+  .about {
+    text-align: left;
+    float:left;
+  position: relative;
+    padding: 10px;
+  border-color:white;
+  margin-left:490px;
+  width: 500px;
+  height:320px;
+  margin-right: auto;
+}
+
+/* ABOUT for mobile*/  
+@media only screen and (max-width: 600px) {
+.about {
+  float:center;
+  text-align: left;
+position: relative;
+  padding: 10px;
+border-color:white;
+  background-color: rgb(255, 255, 255);
+width: 500px;
+height:320px;
+margin-right: auto;
+margin-left: 300px;
+margin-bottom:40px;
+}}
+
+.about2 {
+    text-align: left;
+    float:left;
+    padding: 10px;
+  position: relative;
+    border-color:white;
+margin-bottom:50px;
+    width: 300px;
+    height:320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  .about2 {
+    float:center;
+    text-align: left;
+    float:left;
+    padding: 10px;
+  position: relative;
+    border-color:white;
+    background-color: rgb(255, 255, 255);
+
+    margin-bottom:40px;
+    width: 300px;
+    height:320px;
+    margin-left: 300px;
+    margin-right: auto;
+  }}
+.about p {
+    word-break: break-all;
+}
+
+p {
+    text-align: left;
+}
+
+/* EDUCATION: */ 
+
+.education{
+    text-align: center;
+    display: inline-block;
+    padding-bottom:90px;
+    margin-top:40px;
+    background: url('back3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width:100%;
+}
+h2{
+    text-shadow: 2px 2px 5px red;
+    
+}
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    
+}
+
+span{
+    font-weight: bold; 
+}
+.words{
+    text-align: left;
+}
+
+.edu_title{
+  font-family:papyrus;
+  font-size:170%;
+  font-weight: bold;
+}
+.edu{
+  font-family:Cursive;
+}
+.edu1{
+  font-family:Brush Script MT ;
+  font-size:150%;
+}
+
+
+.float-box1 {
+  font-family:garamond;
+    font-size:130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 490px;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(6, 146, 39);
+    display: block;
+    position: relative;
+    margin-right: auto;
+}  
+.float-box2 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}  
+.float-box2:hover {
+  background-color: #9df9ef;
+}
+
+.float-box3 {
+  font-family:garamond;
+  font-size:130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 490px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(11, 72, 159);
+
+}  
+.float-box4 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+}  
+.float-box4:hover {
+  background-color: #ffa8B6;
+}
+.float-box5 {
+  font-family:garamond;
+  font-size:130%;
+    color: white;
+    width: 200px;
+    height:130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left:490px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(136, 47, 9);
+
+}  
+.float-box6 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}  
+.float-box6:hover {
+  background-color: #d0bdf4;
+}
+
+/* FOOOOOOOOOOOOOOOOOOOOORMS*/
+
+.position{
+    text-align: center;
+    background-color: #5ee85b;
+    border-color: none;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    margin-left:540px;
+    font-family:papyrus;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    outline: thick double #32a1ce;
+    margin-bottom: 150px;
+}
+.position:hover {
+  background-color: orange;
+}
+
+form {
+    /* apply some space around our form, and add a border */
+    width: 700px;
+    margin-top: 3em;
+    padding: 2em;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.3fr, 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    border-color: #5ee85b;
+    box-shadow: 13px 18px #888888;
+}
+
+form label {
+    font-family:papyrus;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black, 0 0 25px rgb(162, 0, 255), 0 0 5px darkblue;
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.4em;
+}
+
+input:focus,
+textarea:focus {
+    outline: 3px solid rgb(222, 10, 173);
+}
+
+input[type="reset"],
+input[type="submit"] {
+    width: 150px;
+    background-color: rgb(226, 134, 202); 
+    color: rgb(64, 9, 184);
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+    background-color: #d7d769;
+}
+
+textarea {
+    grid-column: 1 / 3;
+}
+
+.buttons {
+    grid-column: center;
+    text-align: center;
+}
+
+.last {
+  text-align: center;
+  float:center;
+}
+
+

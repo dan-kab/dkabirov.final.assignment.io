@@ -1,0 +1,271 @@
+ <!-- 
+ * WEB222 – Final Assignment
+ *
+ * I declare that this assignment is my own work in accordance with
+ * Seneca Academic Policy. No part of this assignment has been
+ * copied manually or electronically from any other source
+ * (including web sites) or distributed to other students.
+ *
+ *      Name:       <Daniil Kabirov>
+ *      Student ID: <064250046>
+ *      Date:       <12/14/2022>
+-->
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- Metadata-->
+    <meta charset="utf-8" />
+    <meta name="Author" content="Daniil Kabirov" />
+    <meta name="Description" content="Website For My Final Assignment" />
+    <meta name="Viewport" content="width=device-width, initial-scale=1" /> 
+    <meta name="Keywords" content="Seneca, Daniil, Final, Assignment, Website">
+   
+    <!-- Title-->
+    <title>Daniil Kabirov</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+ 
+  <!--Body -->
+  <body>
+
+<header class= header-image>
+
+</header>
+<div class="section1">
+
+    
+ <!--Download Resume-->
+ <div class="pic">
+
+
+    <img
+    src=dan.jpg
+  />
+  <h1 class="white"><span>DANIIL KABIROV</span></h1>
+  <h4 class="white">Software Developer, Web Designer</h4>
+    <br>
+     <a button class="btn1" a href="Resume.pdf" download > Download</button></a>
+     <a button class="btn2" a href="#bottom"> Contact Me</button></a>
+    </div>
+
+         <!--Line Break, create a unique way of making a different line-->
+
+</div>
+    <br>
+    <br>
+    <br>
+
+    <div class="section2">
+    <!--About me-->
+    <div class="about">
+<h2>About me and Academic Honesty</h2>
+  <p>Hello, my name is Daniil Kabirov. I'm a student at Seneca College.<br />
+    I am 24 years old and this is my second year at this school.<br />
+    I love watching movies and shows, and I love playing video games. <br />
+    I declare that my assessment is wholly my own work in accordance <br />
+    with Seneca Academic Policy. No part of this assessment has been <br />
+    copied manually or electronically from any other source (including <br />
+    web sites) except for the information supplied by the WEB222 instructors <br />
+    and / or made available in this assessment for my use. I also declare <br />
+    that no part of this assignment has been distributed to other students.<br />
+   <br />
+Date: 12/14/2022</p>
+    </div>
+
+    <div class="about2">
+      <h2>Basic Information</h2>
+     <ul><span>AGE:</span> 24 years old<br></ul>
+        <ul><span>EMAIL:</span> dkabirov@myseneca.ca<br></ul>
+        <ul><span>LANGUAGE:</span> English, Russian, Spanish<br></ul>
+        <ul><span>CLASS SECTION:</span> NFF<br></ul>
+        <ul><span>STUDENT ID:</span> 064250046<br></ul>
+          <ul><span>INSTRUCTOR:</span> Mark Anthony<br></ul>
+  
+</div>
+</div>   
+<!--// End of About Me Section-->
+<br>
+  
+
+<div class="section3">
+
+    <!--Education-->
+    <div class="education">
+    <h1>Education</h1>
+
+        <div class="float-box1"> <span>2016-2018
+          <div class="green">
+              (Finished)<br> 
+              Ontario Secondary<br>
+            School Diploma </span><br>
+          </div>
+        </div>
+        
+        <div class="float-box2">
+          <div class="words">
+            <span class="edu_title">Ontario Secondary School Diploma</span> <br>
+            <span class="edu1">Georges Vanier Secondary School</span> <br>
+            <span class="edu">Awarded with Honour Roll Certificates in 2017 and 2018 </span> <br>
+          </div>
+        </div>
+    
+        <div class="float-box3">  <span>2018-2021
+          <div class="green">
+            (Not Finished)<br> 
+            Bachelor's <br>Degree<br>
+       </span><br>
+          </div>
+        </div>
+        
+        <div class="float-box4">
+          <div class="words">
+            <span class="edu_title">Bachelor's Degree </span> <br>
+            <span class="edu1">University of Toronto</span> <br>
+            <span class="edu">Understood that Mathematical and Physical Sciences <br>
+              was not my career path in life. </span> <br>
+          </div>
+        </div>
+  
+        <div class="float-box5">  <span>2021-2022
+          <div class="green">
+            (Not Finished)<br> 
+            Ontario College <br> 
+            Diploma </span><br>
+          </div>
+        </div>
+        
+        <div class="float-box6">
+          <div class="words">
+            <span class="edu_title">Ontario College Diploma</span> <br>
+            <span class="edu1">Seneca College</span> <br>
+            <span class="edu">Hopefully, will be part of Seneca's President Honour List</span> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+     <!--Forms-->
+     <div class="position">
+    <h1>Contact Me</h1>
+  <a id="bottom"></a>
+
+<!--Beginning of forms/ Name-->
+    <form name="contact-me" action="https://httpbin.org/post" method="post">
+
+        <label for="contact-name">Name</label>
+        <input 
+            id="contact-name"
+            name="name"
+            autocomplete="given-name + family-name"
+            type="text"
+            autofocus
+            tabindex="0"
+            required="required"
+            />
+
+            <!--Email-->
+        <label for="contact-email">Email</label>
+        <input 
+            id="contact-email"
+            name="email"
+            autocomplete="email"
+            type="email"
+            tabindex="1"
+            required="required"
+            />
+
+          <!--Forms-->
+          <label for="contact-address">Address</label>
+          <input
+              id="contact-address"
+              name="address"
+              autocomplete="address"
+              type="address"
+              tabindex="2"
+              required="required"
+              />
+
+              <!--Forms-->
+          <label for="contact-city">City</label>
+          <input
+              id="contact-city"
+              name="city"
+              autocomplete="home city"
+              type="text"
+              tabindex="3"
+              required="required"
+              />
+            
+               <!--Forms-->
+          <label for="contact-postal-code">Postal Code</label>
+          <input
+              id="contact-postal-code"
+              name="postal-code"
+              autocomplete="postal-code"
+              type="text"
+              tabindex="4"
+              required pattern=
+              "^(?!.*[DFIOQU])[A-VXY][0-9][A-Z]\s?[0-9][A-Z][0-9]$";
+              required="required"
+              />
+
+                  <!--Forms-->
+          <label for="contact-phone">Phone Number</label>   
+          <input
+              id="contact-phone"
+              name="tel"
+              autocomplete="tel"
+              type="tel"
+              tabindex="5"
+              required pattern="^[+]?[0-9]{9,12}$"
+              required="required"
+              />
+
+
+  <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!REWRITE EVERY CONTACT RED THINGS, COMMENTS, AND OTHER THINGS, CHANGE CONTACT!!!-->
+     <!--RADIO-->
+     <label for="Question">Question</label>
+     <input type="radio" id="Question" name="about"> 
+   
+     <label for="Comment">Comment</label>
+     <input type="radio" id="Comment" name="about"> 
+  
+     <label for="Hiring">Hiring</label> 
+     <input type="radio" id="Hiring" name="about">
+
+     <span id="result"></span>
+  
+<br>
+        <!--Forms-->
+        <label for="message">Message</label>
+    
+        <!--Forms-->
+        <textarea 
+            id="message"
+            name="message"
+            rows="8"
+            tabindex="6"
+            placeholder="Please write anything in this box that I should know:"
+        ></textarea>
+
+        <!--Forms-->
+        <div class="buttons">
+          <input type="reset" name="Reset" value="Restart"  /> 
+            <input type="submit" name="Submit" value="Submit Form" />
+        </div>
+    </form>
+  </div>
+
+  <div class="last">
+    <h4>Attributions:</h4>
+    <div class="last"><a href="https://www.freepik.com/free-photo/grunge-paint-background_17197802.htm#query=background&position=9&from_view=keyword">Image by vector_corp on Freepik</a>  <div class="last">
+      <div class="last"><a href="https://www.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_15273930.htm#query=background&position=48&from_view=keyword">  Image by Freepik</a><div class="last">
+        <div class="last"><a href="https://www.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_13223496.htm#query=background&position=0&from_view=keyword">  Image by Freepik</a><div class="last">
+          <div class="last"><a href="https://www.freepik.com/free-vector/gradient-grainy-gradient-texture_14485901.htm#query=background&position=17&from_view=keyword">  Image by Freepik</a><div class="last">
+
+</div>
+
+    <!-- Ending -->
+    <script src="javascript.js"></script>
+  </body>
+</html>
