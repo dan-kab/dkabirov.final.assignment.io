@@ -10,390 +10,1184 @@
 *   Date:       <12/14/2022>
 **/
 
-/* This edits the header image: */
-.header-image {
-  position: absolute;
-  background: url('header.png');
-  width: 1400px;
-  height: 690px;
-  margin-left: 200px;
-}
+@media (min-device-width: 1550px) {
+  /* This edits the header image: */
+  .header-image {
+    position: absolute;
+    background: url('header.png');
+    width: 1400px;
+    height: 690px;
+    margin-left: 200px;
+  }
 
-/* This is for the first background*/
-.section1 {
-  background: url('back1.jpg');
-}
+  /* This is for the first background*/
+  .section1 {
+    background: url('back1.jpg');
+  }
 
-/* This edits my second background second background*/
-.section2 {
-  background: url('back2.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  display: inline-block;
-  width: 100%;
-}
+  /* This edits my second background second background*/
+  .section2 {
+    background: url('back2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+  }
 
-/* This is for the whole html*/
-p {
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-  text-align: center;
-}
-body {
-  padding: 50px;
-}
-h1 {
-  text-align: center;
-  text-shadow: 2px 2px 5px blue;
-  font-size: 2.35em;
-}
-h4 {
-  text-align: center;
-  text-shadow: 2px 2px 5px rgb(8, 115, 29);
-  font-size: 1.5em;
-}
-h3 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.75em;
+  /* This is for the whole html*/
+  p {
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  body {
+    padding: 50px;
+  }
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    font-size: 2.35em;
+  }
+  h4 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(8, 115, 29);
+    font-size: 1.5em;
+  }
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75em;
+  }
+  h5 {
+    font-size: 1.25em;
+  }
+  h6 {
+    font-size: 1em;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box {
+    text-align: center;
+  }
+  html {
+    font-family: 'Segoe UI';
+    font-size: 91%;
+  }
 
-}
-h5 {
-  font-size: 1.25em;
-}
-h6 {
-  font-size: 1em;
-}
-* {
-  box-sizing: border-box;
-}
-.box {
-  text-align: center;
-}
-html {
-  font-family: 'Segoe UI';
-  font-size: 91%;
-}
+  /* This edits my photo of me: */
+  .pic img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+  }
 
-/* This edits my photo of me: */
-.pic img {
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  height: 500px;
-}
+  /* This edits the section with my photo, the background, and the 2 buttons:*/
+  .pic {
+    background: url('https://img.freepik.com/free-vector/gradient-grainy-gradient-texture_23-2148974142.jpg?w=1800&t=st=1671080797~exp=1671081397~hmac=9e21499cc289fd6d2042757a832a1e4ed432553a3d525ee684ae482d1402bc0d');
+    margin-top: 800px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 750px;
+    height: 850px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.5);
+    opacity: 0.85;
+  }
+  a:hover {
+    background-color: rgb(236, 135, 207);
+  }
+  .white {
+    color: white;
+  }
 
-/* This edits the section with my photo, the background, and the 2 buttons:*/
-.pic {
-  background: url('https://img.freepik.com/free-vector/gradient-grainy-gradient-texture_23-2148974142.jpg?w=1800&t=st=1671080797~exp=1671081397~hmac=9e21499cc289fd6d2042757a832a1e4ed432553a3d525ee684ae482d1402bc0d');
-  margin-top: 800px;
-  margin-bottom: 50px;
-  position: relative;
-  width: 750px;
-  height: 850px;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 3px 20px rgb(0 0 0 / 0.5);
-  opacity: 0.85;
-}
-a:hover {
-  background-color: rgb(236, 135, 207);
-}
-.white {
-  color: white;
-}
+  /*  This edits the "Download" print pdf button*/
+  .btn1 {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+  }
 
-/*  This edits the "Download" print pdf button*/
-.btn1 {
-  border-radius: 20px;
-  background-color: rgb(255, 255, 255);
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  position: relative;
-  right: 10px;
-}
+  /*  This edits the "Contact me" button*/
+  .btn2 {
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
 
-/*  This edits the "Contact me" button*/
-.btn2 {
-  border-radius: 20px;
-  background-color: rgb(0, 0, 0);
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  position: relative;
-  left: 10px;
-}
-.btn:hover {
-  background-color: RoyalBlue;
-}
+  /*  This edits the about me and academic honesty section*/
+  .about {
+    text-align: left;
+    float: left;
+    position: relative;
+    padding: 10px;
+    border-color: white;
+    margin-left: 490px;
+    width: 500px;
+    height: 320px;
+    margin-right: auto;
+    padding-top: 30px;
+  }
 
-/*  This edits the about me and academic honesty section*/
-.about {
-  text-align: left;
-  float: left;
-  position: relative;
-  padding: 10px;
-  border-color: white;
-  margin-left: 490px;
-  width: 500px;
-  height: 320px;
-  margin-right: auto;
-  padding-top:30px;
-}
+  /*  This edits the basic information section*/
+  .about2 {
+    text-align: left;
+    float: left;
+    padding: 10px;
+    position: relative;
+    border-color: white;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+  .about p {
+    word-break: break-all;
+  }
+  p {
+    text-align: left;
+  }
 
-/*  This edits the basic information section*/
-.about2 {
-  text-align: left;
-  float: left;
-  padding: 10px;
-  position: relative;
-  border-color: white;
-  margin-bottom: 50px;
-  width: 300px;
-  height: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top:30px;
-}
-.about p {
-  word-break: break-all;
-}
-p {
-  text-align: left;
-}
+  /* All of this edits the education section*/
+  .education {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 90px;
+    margin-top: 40px;
+    background: url('back3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+  }
+  h2 {
+    text-shadow: 2px 2px 5px red;
+  }
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  span {
+    font-weight: bold;
+  }
+  .words {
+    text-align: left;
+  }
+  .edu_title {
+    font-family: papyrus;
+    font-size: 170%;
+    font-weight: bold;
+  }
+  .edu {
+    font-family: Cursive;
+  }
+  .edu1 {
+    font-family: Brush Script MT;
+    font-size: 150%;
+  }
 
-/* All of this edits the education section*/
-.education {
-  text-align: center;
-  display: inline-block;
-  padding-bottom: 90px;
-  margin-top: 40px;
-  background: url('back3.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  display: inline-block;
-  width: 100%;
-}
-h2 {
-  text-shadow: 2px 2px 5px red;
-}
-.float-container {
-  border: 3px solid #fff;
-  padding: 20px;
-}
-span {
-  font-weight: bold;
-}
-.words {
-  text-align: left;
-}
-.edu_title {
-  font-family: papyrus;
-  font-size: 170%;
-  font-weight: bold;
-}
-.edu {
-  font-family: Cursive;
-}
-.edu1 {
-  font-family: Brush Script MT;
-  font-size: 150%;
-}
+  /* This is the first box with the information about my high school*/
+  .float-box1 {
+    font-family: garamond;
+    font-size: 130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 490px;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(6, 146, 39);
+    display: block;
+    position: relative;
+    margin-right: auto;
+  }
 
-/* This is the first box with the information about my high school*/
-.float-box1 {
-  font-family: garamond;
-  font-size: 130%;
-  color: white;
-  width: 200px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  text-align: center;
-  margin-left: 490px;
-  box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
-  background-color: rgb(6, 146, 39);
-  display: block;
-  position: relative;
-  margin-right: auto;
-}
+  /* This is the second box with the information about my high school*/
+  .float-box2 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
 
-/* This is the second box with the information about my high school*/
-.float-box2 {
-  width: 600px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  text-align: center;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-  box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
-  margin-bottom: 40px;
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
+  /* Adds the background color to the second box with the information about my high school*/
+  .float-box2:hover {
+    background-color: #9df9ef;
+  }
 
-/* Adds the background color to the second box with the information about my high school*/
-.float-box2:hover {
-  background-color: #9df9ef;
-}
+  /* This is the first box with the information about UOFT*/
+  .float-box3 {
+    font-family: garamond;
+    font-size: 130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 490px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(11, 72, 159);
+  }
 
-/* This is the first box with the information about UOFT*/
-.float-box3 {
-  font-family: garamond;
-  font-size: 130%;
-  color: white;
-  width: 200px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  text-align: center;
-  margin-left: 490px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-  background-color: rgb(11, 72, 159);
-}
+  /* This is the second box with the information about UOFT*/
+  .float-box4 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+  }
 
-/* This is the second box with the information about UOFT*/
-.float-box4 {
-  width: 600px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
-  margin-bottom: 40px;
-}
+  /* Adds the background color to the second box with the information about UOFT*/
+  .float-box4:hover {
+    background-color: #ffa8b6;
+  }
 
- /* Adds the background color to the second box with the information about UOFT*/
-.float-box4:hover {
-  background-color: #ffa8b6;
-}
+  /* This is the first box with the information about seneca college*/
+  .float-box5 {
+    font-family: garamond;
+    font-size: 130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 490px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(136, 47, 9);
+  }
 
-/* This is the first box with the information about seneca college*/
-.float-box5 {
-  font-family: garamond;
-  font-size: 130%;
-  color: white;
-  width: 200px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  text-align: center;
-  margin-left: 490px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-  background-color: rgb(136, 47, 9);
-}
+  /* This is the second box with the information about seneca college*/
+  .float-box6 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+  }
 
-/* This is the second box with the information about seneca college*/
-.float-box6 {
-  width: 600px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  text-align: center;
-  margin-left: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-}
+  /* Adds the background color to the second box with the information about seneca college-->*/
+  .float-box6:hover {
+    background-color: #d0bdf4;
+  }
 
-/* Adds the background color to the second box with the information about seneca college-->*/
-.float-box6:hover {
-  background-color: #d0bdf4;
-}
+  /* Position is made to correctly position the form on the screen*/
+  .position {
+    text-align: center;
+    background-color: #5ee85b;
+    border-color: none;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 540px;
+    font-family: papyrus;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    outline: thick double #32a1ce;
+    margin-bottom: 150px;
+    margin-top: 80px;
+  }
+  .position:hover {
+    background-color: orange;
+  }
 
-/* Position is made to correctly position the form on the screen*/
-.position {
-  text-align: center;
-  background-color: #5ee85b;
-  border-color: none;
-  color: white;
-  display: inline-block;
-  margin: 30px;
-  margin-left: 540px;
-  font-family: papyrus;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  outline: thick double #32a1ce;
-  margin-bottom: 150px;
-  margin-top: 80px;
-}
-.position:hover {
-  background-color: orange;
-}
+  /* Edits everything on the form*/
+  form {
+    width: 700px;
+    margin-top: 3em;
+    padding: 2em;
+    border: 1px solid #000000;
+    display: grid;
+    grid-template-columns: 0.3fr, 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    border-color: #5ee85b;
+    box-shadow: 13px 18px #888888;
+  }
+  textarea {
+    grid-column: 1 / 3;
+  }
+  form label {
+    font-family: papyrus;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black, 0 0 25px rgb(162, 0, 255), 0 0 5px darkblue;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.4em;
+  }
+  .buttons {
+    grid-column: center;
+    text-align: center;
+  }
 
-/* Edits everything on the form*/
-form {
-  width: 700px;
-  margin-top: 3em;
-  padding: 2em;
-  border: 1px solid black;
-  display: grid;
-  grid-template-columns: 0.3fr, 1fr;
-  align-items: center;
-  grid-gap: 20px;
-  border-color: #5ee85b;
-  box-shadow: 13px 18px #888888;
-}
-textarea {
-  grid-column: 1 / 3;
-}
-form label {
-  font-family: papyrus;
-  font-size: 1.8em;
-  font-weight: bold;
-  text-shadow: 3px 3px 4px black, 0 0 25px rgb(162, 0, 255), 0 0 5px darkblue;
-}
-input,
-textarea {
-  width: 100%;
-  padding: 0.3em;
-  font-size: 1.5em;
-  border: 1px solid rgb(206, 212, 218);
-  border-radius: 0.4em;
+  /* Makes the form buttons look like they're being clicked when clicked on.*/
+  input[type='reset'],
+  input[type='submit'] {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(226, 134, 202);
+    color: rgb(64, 9, 184);
+    border-radius: 90%;
+    box-shadow: 0 9px #999;
+  }
+  input[type='submit']:hover,
+  input[type='submit']:focus,
+  input[type='reset']:hover,
+  input[type='reset']:focus {
+    background-color: #d7d769;
+  }
+  input[type='submit']:active,
+  input[type='reset']:active {
+    background-color: rgb(226, 134, 202);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
+  /*This is used for credit at the bottom od the website*/
+  .last {
+    text-align: center;
+    float: center;
+  }
 }
-.buttons {
-  grid-column: center;
-  text-align: center;
-}
+/*****************************************END OF 940px***************************************/
 
-/* Makes the form buttons look like they're being clicked when clicked on.*/
-input[type='reset'],
-input[type='submit'] {
-  width: 150px;
-  height: 80px;
-  background-color: rgb(226, 134, 202);
-  color: rgb(64, 9, 184);
-  border-radius: 90%;
-  box-shadow: 0 9px #999;
-}
-input[type='submit']:hover,
-input[type='submit']:focus,
-input[type='reset']:hover,
-input[type='reset']:focus {
-  background-color: #d7d769;
-}
-input[type='submit']:active,
-input[type='reset']:active {
-  background-color: rgb(226, 134, 202);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+/*****************************************END OF 600px***************************************/
 
-/*For authors credit:*/
-.last {
-  text-align: center;
-  float: center;
+@media only screen
+and (min-device-width: 200px) 
+and (max-device-width: 800px) 
+{
+  /* This edits the header image: */
+  .header-image {
+    position: absolute;
+    background: url('header.png');
+    width: 1200px;
+    height: 700px;
+  }
+
+  /* This is for the first background*/
+  .section1 {
+    background: url('back1.jpg');
+    width: 1200px;
+  }
+
+  /* This edits my second background second background*/
+  .section2 {
+    background: url('back2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width: 1200px;
+  }
+
+  /* This is for the whole html*/
+  p {
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  body {
+    padding: 50px;
+  }
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    font-size: 2.35em;
+  }
+  h4 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(8, 115, 29);
+    font-size: 1.5em;
+  }
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75em;
+  }
+  h5 {
+    font-size: 1.25em;
+  }
+  h6 {
+    font-size: 1em;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box {
+    text-align: center;
+  }
+  html {
+    font-family: 'Segoe UI';
+    font-size: 200%;
+  }
+
+  /* This edits my photo of me: */
+  .pic img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 900px;
+  }
+
+  /* This edits the section with my photo, the background, and the 2 buttons:*/
+  .pic {
+    background: url('https://img.freepik.com/free-vector/gradient-grainy-gradient-texture_23-2148974142.jpg?w=1800&t=st=1671080797~exp=1671081397~hmac=9e21499cc289fd6d2042757a832a1e4ed432553a3d525ee684ae482d1402bc0d');
+    margin-top: 800px;
+    position: relative;
+    width: 1000px;
+    height: 1500px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: auto;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.5);
+    background-color: rgb(49, 212, 98);
+    opacity: 0.9;
+    margin-bottom: 70px;
+  }
+
+  a:hover {
+    background-color: rgb(236, 135, 207);
+  }
+  .white {
+    color: white;
+  }
+
+  /*  This edits the "Download" print pdf button*/
+  .btn1 {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+    font-size: 40px;
+  }
+
+  /*  This edits the "Contact me" button*/
+  .btn2 {
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    font-size: 40px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  /*  This edits the about me and academic honesty section*/
+
+  .about {
+    float: center;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    border-color: white;
+    width: 800px;
+    height: 620px;
+    margin-right: auto;
+    margin-left: 200px;
+    margin-bottom: 300px;
+    margin-top: 50px;
+  }
+
+  /*  This edits the basic information section*/
+
+  .about2 {
+    float: center;
+    text-align: left;
+    float: left;
+    padding: 10px;
+    position: relative;
+    border-color: white;
+    margin-bottom: 40px;
+    width: 600px;
+    height: 620px;
+    margin-left: 300px;
+    margin-right: auto;
+  }
+
+  .about p {
+    word-break: break-all;
+  }
+  p {
+    text-align: left;
+  }
+
+  /* All of this edits the education section*/
+  .education {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 90px;
+    margin-top: 40px;
+    background: url('back3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width: 1200px;
+    height: 1100px;
+  }
+  h2 {
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+  }
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  span {
+    font-weight: bold;
+    font-size: 100%;
+  }
+  .words {
+    text-align: left;
+  }
+  .edu_title {
+    font-family: papyrus;
+    font-size: 110%;
+    font-weight: bold;
+  }
+  .edu {
+    font-family: Cursive;
+  }
+  .edu1 {
+    font-family: Brush Script MT;
+    font-size: 110%;
+  }
+
+  /* This is the first box with the information about my high school*/
+  .float-box1 {
+    font-family: garamond;
+    font-size: 90%;
+    color: white;
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(6, 146, 39);
+    float: left;
+    margin-left: 100px;
+  }
+
+  /* This is the second box with the information about my high school*/
+  .float-box2 {
+    width: 800px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+    float: left;
+    margin-right: 50px;
+  }
+
+  /* Adds the background color to the second box with the information about my high school*/
+  .float-box2:hover {
+    background-color: #9df9ef;
+  }
+
+  /* This is the first box with the information about UOFT*/
+  .float-box3 {
+    font-family: garamond;
+    font-size: 90%;
+    color: white;
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(11, 72, 159);
+    float: left;
+    margin-left: 100px;
+  }
+
+  /* This is the second box with the information about UOFT*/
+  .float-box4 {
+    width: 800px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+    float: left;
+    margin-right: 50px;
+  }
+
+  /* Adds the background color to the second box with the information about UOFT*/
+  .float-box4:hover {
+    background-color: #ffa8b6;
+  }
+
+  /* This is the first box with the information about seneca college*/
+  .float-box5 {
+    font-family: garamond;
+    font-size: 90%;
+    color: white;
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(136, 47, 9);
+    float: left;
+    margin-left: 100px;
+  }
+
+  /* This is the second box with the information about seneca college*/
+  .float-box6 {
+    width: 800px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    float: left;
+  }
+
+  /* Adds the background color to the second box with the information about seneca college-->*/
+  .float-box6:hover {
+    background-color: #d0bdf4;
+  }
+
+  /* Position is made to correctly position the form on the screen*/
+  .position {
+    width: 1180px;
+    text-align: center;
+    background-color: #5ee85b;
+    border-color: none;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    font-family: papyrus;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    outline: thick double #32a1ce;
+    margin-bottom: 150px;
+    margin-top: 80px;
+    margin-right: 100px;
+  }
+  .position:hover {
+    background-color: orange;
+  }
+
+  /* Edits everything on the form*/
+  form {
+    width: 1180px;
+    height: 2000px;
+    margin-top: 3em;
+    padding: 40px;
+    border: 1px solid #000000;
+    display: grid;
+    grid-template-columns: 0.3fr, 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    border-color: #5ee85b;
+    box-shadow: 13px 18px #888888;
+  }
+  textarea {
+    grid-column: 1 / 3;
+  }
+  form label {
+    font-family: papyrus;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black, 0 0 25px rgb(162, 0, 255), 0 0 5px darkblue;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.4em;
+  }
+  .buttons {
+    grid-column: center;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /* Makes the form buttons look like they're being clicked when clicked on.*/
+  input[type='reset'],
+  input[type='submit'] {
+    width: 280px;
+    height: 180px;
+    background-color: rgb(226, 134, 202);
+    color: rgb(64, 9, 184);
+    border-radius: 90%;
+    box-shadow: 0 9px #999;
+  }
+  input[type='submit']:hover,
+  input[type='submit']:focus,
+  input[type='reset']:hover,
+  input[type='reset']:focus {
+    background-color: #d7d769;
+  }
+  input[type='submit']:active,
+  input[type='reset']:active {
+    background-color: rgb(226, 134, 202);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  
+  /*This is used for credit at the bottom od the website*/
+  .last {
+    text-align: center;
+  }
+}
+/*****************************************END OF 600px***************************************/
+
+/*****************************************Beginning OF 600px-1540px***************************************/
+@media only screen
+and (min-device-width: 800px) 
+and  (max-device-width: 1540px) {
+  /* This edits the header image: */
+  .header-image {
+    position: absolute;
+    background: url('header.png');
+    width: 1400px;
+    height: 690px;
+  }
+
+  /* This is for the first background*/
+  .section1 {
+    background: url('back1.jpg');
+  }
+
+  /* This edits my second background second background*/
+  .section2 {
+    background: url('back2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+  }
+
+  /* This is for the whole html*/
+  p {
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+  body {
+    padding: 50px;
+  }
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    font-size: 2.35em;
+  }
+  h4 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(8, 115, 29);
+    font-size: 1.5em;
+  }
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75em;
+  }
+  h5 {
+    font-size: 1.25em;
+  }
+  h6 {
+    font-size: 1em;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box {
+    text-align: center;
+  }
+  html {
+    font-family: 'Segoe UI';
+    font-size: 91%;
+  }
+
+  /* This edits my photo of me: */
+  .pic img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+  }
+
+  /* This edits the section with my photo, the background, and the 2 buttons:*/
+  .pic {
+    background: url('https://img.freepik.com/free-vector/gradient-grainy-gradient-texture_23-2148974142.jpg?w=1800&t=st=1671080797~exp=1671081397~hmac=9e21499cc289fd6d2042757a832a1e4ed432553a3d525ee684ae482d1402bc0d');
+    margin-top: 800px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 750px;
+    height: 850px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.5);
+    opacity: 0.85;
+  }
+  a:hover {
+    background-color: rgb(236, 135, 207);
+  }
+  .white {
+    color: white;
+  }
+
+  /*  This edits the "Download" print pdf button*/
+  .btn1 {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+  }
+
+  /*  This edits the "Contact me" button*/
+  .btn2 {
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  /*  This edits the about me and academic honesty section*/
+  .about {
+    text-align: left;
+    float: left;
+    position: relative;
+    padding: 10px;
+    border-color: white;
+    margin-left: 320px;
+    width: 500px;
+    height: 320px;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+
+  /*  This edits the basic information section*/
+  .about2 {
+    text-align: left;
+    float: left;
+    padding: 10px;
+    position: relative;
+    border-color: white;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+  .about p {
+    word-break: break-all;
+  }
+  p {
+    text-align: left;
+  }
+
+  /* All of this edits the education section*/
+  .education {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 90px;
+    margin-top: 40px;
+    background: url('back3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+  }
+  h2 {
+    text-shadow: 2px 2px 5px red;
+  }
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  span {
+    font-weight: bold;
+  }
+  .words {
+    text-align: left;
+  }
+  .edu_title {
+    font-family: papyrus;
+    font-size: 170%;
+    font-weight: bold;
+  }
+  .edu {
+    font-family: Cursive;
+  }
+  .edu1 {
+    font-family: Brush Script MT;
+    font-size: 150%;
+  }
+
+  /* This is the first box with the information about my high school*/
+  .float-box1 {
+    font-family: garamond;
+    font-size: 130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 310px;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(6, 146, 39);
+    display: block;
+    position: relative;
+    margin-right: auto;
+  }
+
+  /* This is the second box with the information about my high school*/
+  .float-box2 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Adds the background color to the second box with the information about my high school*/
+  .float-box2:hover {
+    background-color: #9df9ef;
+  }
+
+  /* This is the first box with the information about UOFT*/
+  .float-box3 {
+    font-family: garamond;
+    font-size: 130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 310px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(11, 72, 159);
+  }
+
+  /* This is the second box with the information about UOFT*/
+  .float-box4 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
+    margin-bottom: 40px;
+  }
+
+  /* Adds the background color to the second box with the information about UOFT*/
+  .float-box4:hover {
+    background-color: #ffa8b6;
+  }
+
+  /* This is the first box with the information about seneca college*/
+  .float-box5 {
+    font-family: garamond;
+    font-size: 130%;
+    color: white;
+    width: 200px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 310px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    background-color: rgb(136, 47, 9);
+  }
+
+  /* This is the second box with the information about seneca college*/
+  .float-box6 {
+    width: 600px;
+    height: 130px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+  }
+
+  /* Adds the background color to the second box with the information about seneca college-->*/
+  .float-box6:hover {
+    background-color: #d0bdf4;
+  }
+
+  /* Position is made to correctly position the form on the screen*/
+  .position {
+    text-align: center;
+    background-color: #5ee85b;
+    border-color: none;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 360px;
+    font-family: papyrus;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    outline: thick double #32a1ce;
+    margin-bottom: 150px;
+    margin-top: 80px;
+  }
+  .position:hover {
+    background-color: orange;
+  }
+
+  /* Edits everything on the form*/
+  form {
+    width: 700px;
+    margin-top: 3em;
+    padding: 2em;
+    border: 1px solid #000000;
+    display: grid;
+    grid-template-columns: 0.3fr, 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    border-color: #5ee85b;
+    box-shadow: 13px 18px #888888;
+  }
+  textarea {
+    grid-column: 1 / 3;
+  }
+  form label {
+    font-family: papyrus;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black, 0 0 25px rgb(162, 0, 255), 0 0 5px darkblue;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.4em;
+  }
+  .buttons {
+    grid-column: center;
+    text-align: center;
+  }
+
+  /* Makes the form buttons look like they're being clicked when clicked on.*/
+  input[type='reset'],
+  input[type='submit'] {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(226, 134, 202);
+    color: rgb(64, 9, 184);
+    border-radius: 90%;
+    box-shadow: 0 9px #999;
+  }
+  input[type='submit']:hover,
+  input[type='submit']:focus,
+  input[type='reset']:hover,
+  input[type='reset']:focus {
+    background-color: #d7d769;
+  }
+  input[type='submit']:active,
+  input[type='reset']:active {
+    background-color: rgb(226, 134, 202);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  
+  /*This is used for credit at the bottom od the website*/
+  .last {
+    text-align: center;
+    float: center;
+  }
 }
